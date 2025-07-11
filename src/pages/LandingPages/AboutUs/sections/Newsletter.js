@@ -15,17 +15,17 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
+import MKBox from 'components/MKBox';
+import MKTypography from 'components/MKTypography';
+import MKInput from 'components/MKInput';
+import MKButton from 'components/MKButton';
 
 // Images
-import macbook from "assets/images/macbook.png";
+import macbook from 'assets/images/macbook.png';
 
 function Newsletter() {
   return (
@@ -43,13 +43,13 @@ function Newsletter() {
                 <MKInput type="email" label="Email Here..." fullWidth />
               </Grid>
               <Grid item xs={4}>
-                <MKButton variant="gradient" color="info" sx={{ height: "100%" }}>
+                <MKButton variant="gradient" color="info" sx={{ height: '100%' }}>
                   Subscribe
                 </MKButton>
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={12} md={5} sx={{ ml: "auto" }}>
+          <Grid item xs={12} md={5} sx={{ ml: 'auto' }}>
             <MKBox position="relative">
               <MKBox component="img" src={macbook} alt="macbook" width="100%" />
             </MKBox>

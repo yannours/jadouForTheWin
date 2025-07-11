@@ -13,18 +13,18 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react';
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Switch from "@mui/material/Switch";
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Switch from '@mui/material/Switch';
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox';
+import MKInput from 'components/MKInput';
+import MKButton from 'components/MKButton';
+import MKTypography from 'components/MKTypography';
 
 function FormSimple() {
   const [checked, setChecked] = useState(true);
@@ -39,7 +39,7 @@ function FormSimple() {
             Contact Us
           </MKTypography>
         </Grid>
-        <Grid container item xs={12} lg={7} sx={{ mx: "auto" }}>
+        <Grid container item xs={12} lg={7} sx={{ mx: 'auto' }}>
           <MKBox width="100%" component="form" method="post" autoComplete="off">
             <MKBox p={3}>
               <Grid container spacing={3}>
@@ -62,7 +62,7 @@ function FormSimple() {
                     fontWeight="regular"
                     color="text"
                     ml={-1}
-                    sx={{ cursor: "pointer", userSelect: "none" }}
+                    sx={{ cursor: 'pointer', userSelect: 'none' }}
                     onClick={handleChecked}
                   >
                     &nbsp;&nbsp;I agree the&nbsp;

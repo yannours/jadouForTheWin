@@ -1,0 +1,19 @@
+.audio-player-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.rhap_container {
+    background-color: #181818; /* Fond sombre similaire à Spotify */
+    color: #fff;
+}
+
+.rhap_controls-section {
+    justify-content: center;
+}
+
+.rhap_play-pause-button {
+    color: #1DB954; /* Couleur verte de Spotify */
+}

@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // prop-types is a library for typechecking of props
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 // @mui material components
-import Tooltip from "@mui/material/Tooltip";
+import Tooltip from '@mui/material/Tooltip';
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox';
+import MKTypography from 'components/MKTypography';
 
 function ExampleCard({ image, name, count, pro, ...rest }) {
   const imageTemplate = (
@@ -31,15 +31,15 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
       shadow="lg"
       minHeight="10rem"
       sx={{
-        overflow: "hidden",
-        transform: "perspective(999px) rotateX(0deg) translate3d(0, 0, 0)",
-        transformOrigin: "50% 0",
-        backfaceVisibility: "hidden",
-        willChange: "transform, box-shadow",
-        transition: "transform 200ms ease-out",
+        overflow: 'hidden',
+        transform: 'perspective(999px) rotateX(0deg) translate3d(0, 0, 0)',
+        transformOrigin: '50% 0',
+        backfaceVisibility: 'hidden',
+        willChange: 'transform, box-shadow',
+        transition: 'transform 200ms ease-out',
 
-        "&:hover": {
-          transform: "perspective(999px) rotateX(7deg) translate3d(0px, -4px, 5px)",
+        '&:hover': {
+          transform: 'perspective(999px) rotateX(7deg) translate3d(0px, -4px, 5px)',
         },
       }}
       {...rest}
@@ -97,7 +97,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
           )}
           {count > 0 && (
             <MKTypography variant="button" fontWeight="regular" color="secondary">
-              {count} {count === 1 ? "Example" : "Examples"}
+              {count} {count === 1 ? 'Example' : 'Examples'}
             </MKTypography>
           )}
         </MKBox>
@@ -108,7 +108,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
 
 // Setting default props for the ExampleCard
 ExampleCard.defaultProps = {
-  name: "",
+  name: '',
   count: 0,
   pro: false,
 };

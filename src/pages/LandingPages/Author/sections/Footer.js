@@ -14,14 +14,14 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
-import Stack from "@mui/material/Stack";
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Link from '@mui/material/Link';
+import Stack from '@mui/material/Stack';
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox';
+import MKTypography from 'components/MKTypography';
 
 function Footer() {
   return (
@@ -32,7 +32,7 @@ function Footer() {
             item
             xs={12}
             lg={4}
-            textAlign={{ xs: "center", lg: "left" }}
+            textAlign={{ xs: 'center', lg: 'left' }}
             mr="auto"
             mb={{ xs: 3, lg: 0 }}
           >
@@ -44,10 +44,10 @@ function Footer() {
               direction="row"
               flexWrap="wrap"
               spacing={3}
-              justifyContent={{ xs: "center", lg: "flex-start" }}
+              justifyContent={{ xs: 'center', lg: 'flex-start' }}
               pl={0}
               mb={3}
-              sx={{ listStyle: "none" }}
+              sx={{ listStyle: 'none' }}
             >
               <MKBox component="li">
                 <MKTypography
@@ -107,8 +107,8 @@ function Footer() {
               Design by Creative Tim.
             </MKTypography>
           </Grid>
-          <Grid item xs={12} lg={6} ml="auto" textAlign={{ xs: "center", lg: "right" }}>
-            <MKTypography variant="body1" fontWeight="bold" mb={6} sx={{ fontSize: "1.125rem" }}>
+          <Grid item xs={12} lg={6} ml="auto" textAlign={{ xs: 'center', lg: 'right' }}>
+            <MKTypography variant="body1" fontWeight="bold" mb={6} sx={{ fontSize: '1.125rem' }}>
               The reward for getting on the stage is fame. The price of fame is you can&apos;t get
               off the stage.
             </MKTypography>

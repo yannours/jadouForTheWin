@@ -13,29 +13,29 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useState } from "react";
+import { useState } from 'react';
 
 // @mui material components
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Stack from "@mui/material/Stack";
-import Popover from "@mui/material/Popover";
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Stack from '@mui/material/Stack';
+import Popover from '@mui/material/Popover';
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox';
+import MKButton from 'components/MKButton';
+import MKTypography from 'components/MKTypography';
 
 function Popovers() {
   const [popover, setPopover] = useState(null);
   const [popoverOrigin, setPopoverOrigin] = useState({
     anchorOrigin: {
-      vertical: "top",
-      horizontal: "center",
+      vertical: 'top',
+      horizontal: 'center',
     },
     transformOrigin: {
-      vertical: "bottom",
-      horizontal: "center",
+      vertical: 'bottom',
+      horizontal: 'center',
     },
   });
 
@@ -65,12 +65,12 @@ function Popovers() {
                 togglePopover(event);
                 setPopoverOrigin({
                   anchorOrigin: {
-                    vertical: "top",
-                    horizontal: "center",
+                    vertical: 'top',
+                    horizontal: 'center',
                   },
                   transformOrigin: {
-                    vertical: "bottom",
-                    horizontal: "center",
+                    vertical: 'bottom',
+                    horizontal: 'center',
                   },
                 });
               }}
@@ -84,12 +84,12 @@ function Popovers() {
                 togglePopover(event);
                 setPopoverOrigin({
                   anchorOrigin: {
-                    vertical: "center",
-                    horizontal: "right",
+                    vertical: 'center',
+                    horizontal: 'right',
                   },
                   transformOrigin: {
-                    vertical: "center",
-                    horizontal: "left",
+                    vertical: 'center',
+                    horizontal: 'left',
                   },
                 });
               }}
@@ -103,12 +103,12 @@ function Popovers() {
                 togglePopover(event);
                 setPopoverOrigin({
                   anchorOrigin: {
-                    vertical: "center",
-                    horizontal: "left",
+                    vertical: 'center',
+                    horizontal: 'left',
                   },
                   transformOrigin: {
-                    vertical: "center",
-                    horizontal: "right",
+                    vertical: 'center',
+                    horizontal: 'right',
                   },
                 });
               }}
@@ -122,12 +122,12 @@ function Popovers() {
                 togglePopover(event);
                 setPopoverOrigin({
                   anchorOrigin: {
-                    vertical: "bottom",
-                    horizontal: "center",
+                    vertical: 'bottom',
+                    horizontal: 'center',
                   },
                   transformOrigin: {
-                    vertical: "top",
-                    horizontal: "center",
+                    vertical: 'top',
+                    horizontal: 'center',
                   },
                 });
               }}

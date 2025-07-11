@@ -14,24 +14,24 @@ Coded by www.creative-tim.com
 */
 
 // @mui material components
-import Grid from "@mui/material/Grid";
+import Grid from '@mui/material/Grid';
 
 // Material Kit 2 React components
-import MKBox from "components/MKBox";
-import MKInput from "components/MKInput";
-import MKButton from "components/MKButton";
-import MKTypography from "components/MKTypography";
+import MKBox from 'components/MKBox';
+import MKInput from 'components/MKInput';
+import MKButton from 'components/MKButton';
+import MKTypography from 'components/MKTypography';
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
+import DefaultNavbar from 'examples/Navbars/DefaultNavbar';
+import DefaultFooter from 'examples/Footers/DefaultFooter';
 
 // Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
+import routes from 'routes';
+import footerRoutes from 'footer.routes';
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from 'assets/images/illustrations/illustration-reset.jpg';
 
 function ContactUs() {
   return (
@@ -39,18 +39,18 @@ function ContactUs() {
       <MKBox position="fixed" top="0.5rem" width="100%">
         <DefaultNavbar
           routes={routes}
-          action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
-            color: "info",
-          }}
+          // action={{
+          //   type: "external",
+          //   route: "https://www.creative-tim.com/product/material-kit-react",
+          //   label: "free download",
+          //   color: "info",
+          // }}
         />
       </MKBox>
       <Grid container spacing={3} alignItems="center">
         <Grid item xs={12} lg={6}>
           <MKBox
-            display={{ xs: "none", lg: "flex" }}
+            display={{ xs: 'none', lg: 'flex' }}
             width="calc(100% - 2rem)"
             height="calc(100vh - 2rem)"
             borderRadius="lg"
@@ -66,8 +66,8 @@ function ContactUs() {
           md={7}
           lg={6}
           xl={4}
-          ml={{ xs: "auto", lg: 6 }}
-          mr={{ xs: "auto", lg: 6 }}
+          ml={{ xs: 'auto', lg: 6 }}
+          mr={{ xs: 'auto', lg: 6 }}
         >
           <MKBox
             bgColor="white"
